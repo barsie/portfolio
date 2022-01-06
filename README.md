@@ -1,6 +1,7 @@
 - 👋 Hi, I’m @Barsie
 - 👀 I’m interested in ... BLOCKCHAIN, IA, Web Dev, Information Security
-- 🌱 I’m currently learning ... Web Dev
+- 🌱 I’m currently learning ... Web Dev -- JS and FrameWorks(node, express, gulp, react) and 
+- DDBB management (No SQL --Mongo DB, CAUGH DB) and SQL 
 - 💞️ I’m looking to collaborate on ...
 - 📫 How to reach me ...
 
