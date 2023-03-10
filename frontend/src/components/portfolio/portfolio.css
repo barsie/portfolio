@@ -1,0 +1,44 @@
+.portf__container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
+.portf__item{
+    padding: 2rem;
+    border-radius: 1.2rem;
+    border: 0px solid var(--color-primary);
+    box-shadow: var(--box-shadow-p);
+    transition: var(t--transition);
+}
+
+.portf__item__image{
+    border-radius: 0.9rem;
+    overflow: hidden;
+}
+
+.portf__item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.portf__item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+/* ====================Media queries Medium===========================  */
+@media screen and (max-width: 1024px){
+   .portf__container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+   }
+}
+/* ====================Media queries Small===========================  */
+@media screen and (max-width: 600px){
+    .portf__container{
+        grid-template-columns: 1fr;
+        gap: 1.2rem;
+    }
+
+}
