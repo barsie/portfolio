@@ -58,7 +58,7 @@ const Portfolio = () => {
   return (
     <section id='portfolio'>
       <h5>Trabajos recientes</h5>
-      <h2>Portfolio</h2>
+      <h2 className='text-2xl font-semibold'>Portfolio</h2>
 
       <div className='container portf__container'>
         {

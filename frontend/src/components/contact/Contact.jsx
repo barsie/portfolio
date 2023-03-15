@@ -19,7 +19,7 @@ const Contact = () => {
   return (
     <section id='contact'>
       <h5>Acerca de</h5>
-      <h2>Contacto</h2>
+      <h2 className='text-2xl font-semibold'>Contacto</h2>
       <div className='container cnt__container'>
         <div className='cnt__optns'>
           <article className='cnt__optn'>

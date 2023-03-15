@@ -26,7 +26,7 @@ const Footer = () => {
         <a href='https://telegram.com'><RiTelegramLine/></a>
       </div>
 
-      <div className='footer__copyright'>2023 - 2024 &copy; by SIRINEO BARILA</div>
+      <div className='text-2x text-white'>2023 - 2024 &copy; by SIRINEO BARILA</div>
     </footer>
   )
 }

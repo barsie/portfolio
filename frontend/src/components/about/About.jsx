@@ -11,7 +11,7 @@ const About = () => {
     <section id='about'>
       
     <h5>Conóscame</h5>
-    <h2>Acerca de</h2>
+    <h2 className='text-2xl font-semibold'>Acerca de</h2>
 
     <div className='container about__container'>
 
@@ -20,7 +20,6 @@ const About = () => {
           <img src={Me} alt='About Image'/>
         </div>
       </div>
-
       <div className='about__content'>
         <div className='about__cards'>
           <article className='about__card'>

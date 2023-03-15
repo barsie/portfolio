@@ -38,6 +38,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 
 .bd .text{
@@ -45,14 +46,15 @@ header{
 }
 
 .text__f{
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
 .text__s{
     color: var(--color-primary);
     font-size: 3rem;
     font-weight: bold;
+    margin-left: .5rem;
 }
-.text__s-text::before{
+.text.text__s::before{
     content: '';
     position: absolute;
     top: 0;
@@ -60,8 +62,17 @@ header{
     height: 100%;
     width: 100%;
     background-color: var(--color-bg);
+    border-left: 2px solid var(--color-primary);
+    animation: animate 4s steps(12) infinite;
 }
-
+@keyframes animate {
+    40%, 60% {
+        left: 100%;
+    }
+    100%{
+        left: 0%;
+    }
+}
 
 /* SOCIALS */
 
