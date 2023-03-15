@@ -18,27 +18,27 @@ const Services = () => {
           <ul className='serv__list'>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Investigación y recolección de datos.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Procesado y Modelado de datos.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Visualización y story de datos.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Data Management y Backup.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Automatización y Escalabilidad de Datos.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Insights y Estadísticas.</p>
             </li>
           </ul>
         </article>
@@ -53,31 +53,31 @@ const Services = () => {
           <ul className='serv__list'>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>De Portafolios y páginas personales.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>De proyectos y Servicios web.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Integración a plataformas E-Commerces.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Mantenimiento de sitio y servicios web.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Mapeado de Empresas y Organizaciones.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Optimización de sitios Web (SEO).</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Insights y Analíticas.</p>
             </li>
           </ul>
         </article>
@@ -92,27 +92,27 @@ const Services = () => {
           <ul className='serv__list'>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Procesos de innovación empresarial.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Acompañamiento en digitalización.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Logistica de suministros de materiales TIC.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Escalabilidad de redes y infraestructuras TIC.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Utilización de herramientas empresariales.</p>
             </li>
             <li>
               <BiCheck className='serv__list-icon'/>
-              <p>lorem ipsum sicut panis moretis tusos et ilit.</p>
+              <p>Installación de Servicios en red.</p>
             </li>
           </ul>
         </article>

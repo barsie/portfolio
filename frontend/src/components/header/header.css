@@ -8,6 +8,7 @@
     margin-top: -6rem;
     margin-bottom: 2rem;
     box-shadow: var(--box-shadow-p);
+    
 }
 
 header{
@@ -31,6 +32,36 @@ header{
     gap: 1.4rem;
     justify-content: center;
 }
+
+.bd{
+    min-width: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bd .text{
+    position: relative;
+}
+
+.text__f{
+    font-size: 1.2rem;
+}
+.text__s{
+    color: var(--color-primary);
+    font-size: 3rem;
+    font-weight: bold;
+}
+.text__s-text::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: var(--color-bg);
+}
+
 
 /* SOCIALS */
 

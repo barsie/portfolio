@@ -18,35 +18,35 @@ const dataPortf = [
   {
       id: 2,
       img: ImgPortf2,
-      title: "ciencias tecnologia",
+      title: "Tecnologías web",
       github: "http://github.com/ciencias tecnologia",
       demo: 'http://'
   },
   {
       id: 3,
       img: ImgPortf3,
-      title: "Criptomonedas",
+      title: "Emprendimiento",
       github: "https://github.com/criptomonedas",
       demo: 'http://'
   },
   {
       id: 4,
       img: ImgPortf4,
-      title: "etereum",
+      title: "Etereum",
       github: "https://github.com/etereum/",
       demo: 'http://'
   },
   {
       id: 5,
       img: ImgPortf5,
-      title: "ciberseguridad",
+      title: "Ciberseguridad",
       github: "https://github.com/ciberseguridad/",
       demo: 'http://'
   },
   {
       id: 6,
       img: ImgPortf6,
-      title: "Data Scurces",
+      title: "Data Sources",
       github: "https://github.com/Data Scurces",
       demo: 'http://'
   },
