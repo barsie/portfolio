@@ -5,14 +5,15 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
     <section id='experience'>
-      <h5>Mis habilidades</h5>
-      <h2>Mis habilidades</h2>
+      <h5>Qué puedo ofrecerte</h5>
+      <h2 className='text-2xl font-semibold'>Mis habilidades</h2>
 
-      <div className='container exp__container'>
+    <div className='container exp__container'>
 
+      {/*===================== Experience 1 ====================== */}
         <div className='exp__wtech'>
 
-          <h3>Web-App Dev & Tools</h3>
+          <h3>Web Development FrontEnd</h3>
           <div className='exp__content'>
 
             <article className='exp__details'>
@@ -33,8 +34,24 @@ const Experience = () => {
 
             <article className='exp__details'>
               <BsPatchCheckFill/>
+              <div>  
+                <h4>ReactJs</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
               <div>
                 <h4>JavaScript</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>SASS</h4>
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
@@ -46,19 +63,34 @@ const Experience = () => {
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
+          </div>
+        </div>
+      {/*===================== Experience 1 ====================== */}
+        <div className='exp__wtech'>
+
+          <h3>Web Development BackEnd</h3>
+          <div className='exp__content'>
 
             <article className='exp__details'>
               <BsPatchCheckFill/>
-              <div>  
-                <h4>ReactJs</h4>
-                <small className='text-light'>Intermedio</small>
+              <div>
+                <h4>NodeJs</h4>
+                <small className='text-light'>Experiencia</small>
               </div>
             </article>
 
             <article className='exp__details'>
               <BsPatchCheckFill/>
               <div>
-                <h4>NodeJs</h4>
+                <h4>ExpressJs</h4>
+                <small className='text-light'>Experiencia</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>  
+                <h4>MongoDB</h4>
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
@@ -74,16 +106,77 @@ const Experience = () => {
             <article className='exp__details'>
               <BsPatchCheckFill/>
               <div>
-                <h4>GitHub</h4>
+                <h4>JSON</h4>
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
 
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>PostgresSQL</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
+          </div>
+        </div>
+      {/*===================== Experience 1 ====================== */}
+        <div className='exp__wtech'>
+
+          <h3>Analisis de Datos</h3>
+          <div className='exp__content'>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>Power BI</h4>
+                <small className='text-light'>Experiencia</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>EXCEL</h4>
+                <small className='text-light'>Experiencia</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>  
+                <h4>TABLEAU</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>Google Sheet</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>DHIS2</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>QGIS</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
           </div>
         </div>
 
-        <div className='exp_bness'>
-          
+      <div className='exp_bness'>
         <h3>IT SKILLS</h3>
           <div className='exp__content'>
 

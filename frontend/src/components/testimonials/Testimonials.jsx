@@ -1,9 +1,9 @@
 import React from 'react'
 import './testimonials.css'
-import AVT1 from '../../assets/avatar1.jpg'
-import AVT2 from '../../assets/avatar2.jpg'
-import AVT3 from '../../assets/avatar3.jpg'
-import AVT4 from '../../assets/avatar4.jpg'
+import AVT1 from '../../assets/tbsl.png'
+import AVT2 from '../../assets/dhub.png'
+import AVT3 from '../../assets/rhota.jpg'
+import AVT4 from '../../assets/dhub.png'
 
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -18,7 +18,7 @@ import 'swiper/css/pagination';
 const dataTest = [
   {
     avatar: AVT1,
-    name: 'Maria Jose',
+    name: 'TECNOBOTS',
     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti voluptas autem, dolorum architecto temporibus in labore, quas exercitationem voluptatum modi quaerat accusantium fugit. Dolor ad recusandae voluptates officiis repudiandae doloremque.'
   },
   {
@@ -28,12 +28,12 @@ const dataTest = [
   },
   {
     avatar: AVT3,
-    name: 'Ben Conexia',
+    name: 'ROTHA SL',
     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti voluptas autem, dolorum architecto temporibus in labore, quas exercitationem voluptatum modi quaerat accusantium fugit. Dolor ad recusandae voluptates officiis repudiandae doloremque.'
   },
   {
     avatar: AVT4,
-    name: 'Mercedes Maye',
+    name: 'BIOKOLATE',
     review: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti voluptas autem, dolorum architecto temporibus in labore, quas exercitationem voluptatum modi quaerat accusantium fugit. Dolor ad recusandae voluptates officiis repudiandae doloremque.'
   }
 
@@ -45,7 +45,7 @@ const Testimonials = () => {
   return (
     <section id='testimonials'>
       <h5>Opinion de Clientes</h5>
-      <h2>Testimonios</h2>
+      <h2 className='text-2xl font-semibold'>Testimonios</h2>
 
       <Swiper className='container test__container' 
         modules={[Pagination]}
