@@ -47,12 +47,10 @@ const dataPortf = [
       id: 6,
       img: ImgPortf6,
       title: "Data Sources",
-      github: "https://github.com/Data Scurces",
+      github: "https://github.com/Data_Sources",
       demo: 'http://'
   },
 ]
-
-
 
 const Portfolio = () => {
   return (
