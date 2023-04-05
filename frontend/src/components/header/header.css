@@ -64,7 +64,7 @@ header{
     width: 100%;
     background-color: var(--color-bg);
     border-left: 2px solid var(--color-primary);
-    animation: animate 4s steps(12) infinite;
+    animation: animate 3s steps(12) infinite;
 }
 @keyframes animate {
     40%, 60% {
@@ -138,7 +138,7 @@ header{
         height: 100vh;
     }
     /* .bd{
-        width: 40%;
+        width: 50%;
     } */
     .header__socials, .scroll__down{
         display: none;

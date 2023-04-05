@@ -173,6 +173,14 @@ const Experience = () => {
                 <small className='text-light'>Intermedio</small>
               </div>
             </article>
+
+            <article className='exp__details'>
+              <BsPatchCheckFill/>
+              <div>
+                <h4>KoboToolBOx</h4>
+                <small className='text-light'>Intermedio</small>
+              </div>
+            </article>
           </div>
         </div>
 
@@ -201,7 +209,7 @@ const Experience = () => {
               <BsPatchCheckFill/>
               <div>  
                 <h4>Network Management</h4>
-                <small className='text-light'>Experiencia</small>
+                <small className='text-light'>Experto</small>
               </div>
             </article>
             <article className='exp__details'>
@@ -240,7 +248,7 @@ const Experience = () => {
               <BsPatchCheckFill/>
               <div>
                 <h4>Open-Sourcing</h4>
-                <small className='text-light'>Intermedio</small>
+                <small className='text-light'>Avanzado</small>
               </div>
             </article>
           </div>
