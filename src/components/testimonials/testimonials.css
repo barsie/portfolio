@@ -13,7 +13,7 @@
 }
 
 .test{
-    background: var(--color-primary);
+    background: var(--color-primary );
     color: var(--color-bg);
     text-align: center;
     padding: 2rem;

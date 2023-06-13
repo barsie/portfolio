@@ -15,7 +15,7 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 
 
-const dataTest = [
+const dataSet = [
   {
     avatar: AVT1,
     name: 'TECNOBOTS',
@@ -54,7 +54,7 @@ const Testimonials = () => {
         pagination = {{clickable: true}}
       >
         {
-          dataTest.map(({avatar, name, review}, index)=>{
+          dataSet.map(({avatar, name, review}, index)=>{
 
            return(
             <SwiperSlide key={index} className='test'>

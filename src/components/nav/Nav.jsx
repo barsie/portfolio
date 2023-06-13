@@ -6,7 +6,7 @@ import  {RiServiceFill} from 'react-icons/ri'
 import { useState } from 'react'
 
 const Nav = () => {
-  const [activeNav, setactiveNav] = useState('#')
+  const [activeNav, setactiveNav,] = useState('#')
   return (
     <nav>
       <a href='#' className={activeNav === "#" ? 'active' : ''}><AiOutlineHome/></a>
@@ -14,7 +14,6 @@ const Nav = () => {
       <a href='#experience' onClick={()=>setactiveNav('#experience')} className={activeNav === "#experience" ? 'active' : ''}><BiBook/></a>
       <a href='#portfolio' onClick={()=> setactiveNav('#portfolio')} className={activeNav === "#portfolio" ? 'active' : ''} ><RiServiceFill/></a>
       <a href='#contact' onClick={()=>setactiveNav('#contact')} className={activeNav === "#contact" ? 'active' : ''}><BiMessageSquareDetail/></a>
-
     </nav>
   )
 }

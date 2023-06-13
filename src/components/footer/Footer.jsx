@@ -26,7 +26,7 @@ const Footer = () => {
         <a href='https://telegram.com'><RiTelegramLine/></a>
       </div>
 
-      <div className='text-2x text-white'>2023 - 2024 &copy; by SIRINEO BARILA <span>Powered by KNOW&reg;</span> </div>
+      <div className='text-2x text-white'>2023 - 2024 &copy; by SIRINEO BARILA <span className=''>Powered by <b className='text-purple-800'>KNOW</b>&reg;</span> Inspired by:  </div>
     </footer>
   )
 }
