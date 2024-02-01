@@ -6,7 +6,7 @@ import {BsReddit, BsInstagram, BsLinkedin, BsTwitter, BsGithub} from 'react-icon
 const Footer = () => {
   return (
     <footer className='footer'>
-      <a href='#' className='footer__logo'><span>Powered by</span> KNOW<span>&reg;</span></a>
+      <a href='#' className='footer__logo'><span>Powered by</span> WëB Free<span>&reg;</span></a>
       <ul className='permalinks'>
         <li><a href='#'>Inicio</a></li>
         <li><a href='#about'>Acerca de</a></li>
@@ -26,7 +26,7 @@ const Footer = () => {
         <a href='https://telegram.com'><RiTelegramLine/></a>
       </div>
 
-      <div className='text-2x text-white'>2023 - 2024 &copy; by SIRINEO BARILA <span>Powered by KNOW&reg;</span> </div>
+      <div className='text-2x text-white'>2024 &copy; by SIRINEO BARILA <span>Powered by WeeB Free&reg;</span> </div>
     </footer>
   )
 }

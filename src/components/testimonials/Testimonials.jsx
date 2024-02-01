@@ -57,7 +57,7 @@ const Testimonials = () => {
           dataTest.map(({avatar, name, review}, index)=>{
 
            return(
-            <SwiperSlide key={index} className='test'>
+            <SwiperSlide key={index} className='test bg-purple-50 shadow-xl'>
                 <div className='ct__avt'>
                   <img src={avatar}/>
                 </div>

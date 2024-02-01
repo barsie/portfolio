@@ -11,7 +11,7 @@ import Testimonials from './components/testimonials/Testimonials';
 
 function App() {
   return (
-   <>
+   <main className='hide-scrollbar'>
     <Header/>
     <Nav/>
     <About/>
@@ -21,7 +21,7 @@ function App() {
     <Testimonials/>
     <Contact/>
     <Footer/>
-   </>
+   </main>
   );
 }
 
